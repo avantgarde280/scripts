@@ -114,7 +114,7 @@ UEFI_ROMS=($(printf "%s " "${hsw_boxes[@]}" "${hsw_books[@]}" "${bdw_boxes[@]}" 
     "${glk[@]}" "${apl[@]}" "${tgl[@]}" "${jsl[@]}" "${adl[@]}" "${adl_n[@]}" \
     "${pco[@]}" "${czn[@]}" "${mdn[@]}" ))
 eol_devices=($(printf "%s " "${hsw_boxes[@]}" "${hsw_books[@]}" "${bdw_boxes[@]}" \
-        "${bdw_books[@]}" "${baytrail[@]}" "${snb_ivb[@]}" "${braswell[@]}" "${skylake[@]}" ))
+        "${bdw_books[@]}" "${baytrail[@]}" "${snb_ivb[@]}" "${skylake[@]}" ))
 
 #menu text output
 NORMAL=$(echo "\033[m")
