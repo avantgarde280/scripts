@@ -260,7 +260,7 @@ set_device_flags_from_database() {
 			;;
 		BSW)
 			isBsw=true
-			isEOL=true
+			isEOL=false
 			hasUEFIoption=true
 			;;
 		SKL)
